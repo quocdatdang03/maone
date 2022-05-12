@@ -1,0 +1,394 @@
+
+/* >= Tablet */
+@media (min-width : 740px) and (max-width : 1023px) {
+    .header__nav-list {
+        display : none;
+    }
+
+    .header__nav{
+        display : grid;
+        grid-template-columns : auto auto;
+    }
+
+    .box-search {
+        top : 90%;
+        right : 20%;
+        width : 145%;
+    }
+
+    .header__nav-button {
+        display : block;
+    }
+}
+
+
+/* Mobile */
+@media (max-width : 739px) {
+   
+}
+
+/* PC Low */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .infomation__search {
+        transform : translateY(28px);
+    }
+
+
+    .transport__item {
+
+    }
+
+    /* offer */
+
+    .offer__img {
+        float : left;
+        width : 50%;
+    }
+
+    .offer__content {
+        float : left;
+        width : 50%;
+        padding : 0 15px;
+    }
+
+    /* opinion */
+    .opinion__background {
+        height : 426px;
+    }
+
+    .opinion__footer {
+        /* padding : 64px 40px 0 38px; */
+        padding : 54px 40px 0 45px;
+    }
+
+    .opinion__footer-text {
+        line-height : 1.8;
+    }
+
+    /* trending */
+    .trending__content {
+        transform : translateY(-17px);
+    }
+    
+    .contact__form {
+        right : 35px;
+        width : 50%;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .search {
+       padding-top : 80px;
+       height : 100%;
+    }
+
+    h3 {
+        margin-top : 10px;
+    }
+
+    .infomation__search {
+        display : flex;
+        transform : translateY(0);
+        margin-top : 40px;
+        width : 100%;
+        justify-content : flex-end;
+        margin-bottom : 40px;
+    }
+
+    .infomation__search button {
+        width : 250px;
+    }
+
+    .search {
+        display : block;
+    }
+
+    .header__bar {
+        width : 50%;
+    }
+
+    .mt-top {
+        display : none;
+    }
+
+    .transport {
+        position : relative;
+        bottom : 100%;
+        grid-template-columns : 1fr 1fr;
+        grid-gap : 10px;
+    }
+
+    .transport__item {
+        height : 62px;
+        border : 1px solid white;
+    }
+
+    .transport__item:nth-child(5),
+    .transport__item:nth-child(6) {
+        margin-bottom : 40px;
+    }
+
+    .transport__item:first-child {
+        border-top-left-radius : 0;
+    }
+
+    .transport__item:last-child {
+        border-top-right-radius : 0;
+    }
+
+    /* place */
+    .place__body-item {
+        margin-top : 48px;
+    }
+
+    /* opinion */
+    .opinion__background  {
+        height : 434px;
+        margin-bottom : 80px;
+    }
+
+    /* trending */
+    .trending__content-heading {
+        font-size : 13px;
+    }
+
+
+    /* contact */
+    .contact__form {
+        width : 75%;
+        right : 50%;
+        transform : translateX(50%);
+    }
+}
+
+/* Mobile */
+@media (max-width : 739px) {
+
+
+    /* Xử lý ẩn thanh top-bar trên mobile */
+    .header__top-bar {
+        transform : translateY(-100px);
+    }
+
+    .header__nav-bar {
+        top : 0;
+        right : 0;
+        left : 0;
+    }
+    
+    .header__nav-list {
+        display : none;
+    }
+
+    .header__nav{
+        display : grid;
+        grid-template-columns : auto auto;
+    }
+
+    .header__logo {
+        justify-content : center;
+    }
+
+    .header__nav-search {
+        justify-content : center;
+    }
+
+    .header__nav-button {
+        display : block;
+    }
+
+    .box-search {
+        top : 90%;
+        right : 34%;
+        width : 204%;
+    }
+
+    .search {
+        display : flex;
+        flex-direction : column;
+        padding-top : 80px;
+        height : 100%;
+        padding-right : 16px;
+        padding-left : 16px;
+     }
+
+     .header__bar {
+         width : 80%;
+     }
+
+
+     .infomation-item h3 {
+         margin-bottom : 14px;
+         margin-top : 14px;
+     }
+
+
+     .infomation__search {
+        display : flex;
+        transform : translateY(0);
+        margin-top : 40px;
+        width : 100%;
+        align-items : center;
+        justify-content : center;
+        margin-bottom : 30px;
+    }
+
+    .infomation__search button {
+        width : 300px;
+    }
+
+    /* transport */
+    .transport {
+        width : 100%;
+        height : 100%;
+        position : relative;
+        bottom : 100%;
+        display : grid;
+        grid-template-columns : 1fr;
+        grid-gap : 10px;
+    }
+
+    .transport__item {
+        width : 100%;
+        height : 62px;
+        overflow : hidden;
+        border : 1px solid white;
+    }
+
+    .place__body-item-background {
+    }
+
+    .transport__item:first-child {
+        border-top-left-radius : 0;
+    }
+
+    .transport__item:last-child {
+        border-top-right-radius : 0;
+    }
+
+     /* place */
+     .place {
+         
+     }
+
+     .place__body-item {
+        margin-top : 48px;
+       
+    }
+
+    .place__body-item-margin {
+        padding : 0 16px;
+    }
+
+    /* package */
+
+    .package__background {
+        padding : 20px 15px;
+    }
+    .package__box {
+        padding : 60px 20px;
+    }
+
+    .package__box-heading {
+        font-size : 20px;
+        font-weight : bold;
+    }
+
+    .place__row {
+        margin-left : 11px;
+        margin-right : 11px;
+    }
+
+    /* offer */
+    .offer__row {
+        margin-right : 11px;
+        margin-left : 11px;
+    }
+
+    /* opinion */
+    .opinion__row {
+        margin : 0 11px;
+    }
+
+    .opinion__background {
+        height : 416px;
+        margin-bottom : 60px;
+    }
+
+    .opinion__footer {
+        padding : 54px 40px 0 45px;
+    }
+    
+    .opinion__footer-text {
+        line-height : 1.7;
+    }
+
+    /* trending */
+    .trending__item {
+        /* display : flex;
+        flex-direction : column;
+        align-items : center; */
+    }
+
+    .trending__content {
+    }
+
+    /* contact */
+    .contact__form {
+        width : 95%;
+        right : 50%;
+        transform : translateX(50%);
+    }
+
+    /* footer */
+    .footer__item-heading {
+        margin-top : 50px;
+    }
+    
+}
+
+
+/* small mobile */
+@media (max-width : 584px) {
+    .offer__item {
+        display : grid;
+        grid-template-columns : 50% 50%;
+    }
+}
+
+@media (max-width : 479px) {
+
+    .box-search  {
+        width : 312%;
+        right : 12%;
+    }
+    .offer__item {
+        grid-template-columns : 100%;
+    }
+
+    .offer__img {
+        height : 438px;
+    }
+
+    .offer__content {
+        margin : 5px 10px;
+    }
+
+     /* trending */
+     .trending__item {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+    }
+
+    .trending__content {
+        transform : translate(10px, 30px);
+    }
+}
+
+@media (max-width : 652px) {
+    /* opinion */
+    .opinion__background {
+        height : 85%;
+    }
+}

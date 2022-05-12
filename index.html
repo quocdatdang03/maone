@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="shortcut icon" href="/assets/img/logo.webp" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Ingrid+Darling&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:wght@300;400;700&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top-bar">
+            <div class="grid wide">
+                <div class="header__top">
+                    <div class="header__contact">
+                        <div class="header__left">
+                            <div class="header__contact-number">
+                                <p>+84 945 000 917</p>
+                            </div>
+                            <div class="header__contact-social">
+                                <i class="fa-brands fa-pinterest"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-dribbble"></i>
+                                <i class="fa-brands fa-behance"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        <div class="header__contact-login">
+                           <p class="header__contact-login-text"><a class="header__contact-login-link" href="">Login</a></p>
+                           <p class="header__contact-login-text"><a href="">register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__nav-bar">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <div class="header__logo">
+                        <img src="./assets/img/logo.webp" alt="TRAVELIX">
+                        <h1>TRAVELIX</h1>
+                    </div>
+        
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item showBorder">
+                            <a href="#" class="header__nav-item-link">home</a>
+                            <span class="border"></span>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">about</a>
+                            <span class="border"></span>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">offers</a>
+                            <span class="border"></span>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">news</a>
+                            <span class="border"></span>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-item-link">contact</a>
+                            <span class="border"></span>
+                        </li>
+                    </ul>
+        
+                    <div class="header__nav-search">
+                        <i class="nav-search__icon fas fa-search"></i>
+                        
+                        <div class="header__nav-button">
+                            <i id="menu__open" class="fa-solid fa-bars"></i>
+
+                            
+                            <div class="overlay"></div>
+                            <div class="header__bar">
+                                <div class="header__bar-heading">
+                                    <i class="header__bar-close fa-solid fa-xmark"></i>
+                                </div>
+
+                                <ul class="header__bar-body">
+                                    <li class="header__bar-item active">
+                                        <a href="#" class="header__bar-item-link">Home</a>
+                                    </li>
+                                    <li class="header__bar-item">
+                                        <a href="#" class="header__bar-item-link">About</a>
+                                    </li>
+                                    <li class="header__bar-item">
+                                        <a href="#" class="header__bar-item-link">Offer</a>
+                                    </li>
+                                    <li class="header__bar-item">
+                                        <a href="#" class="header__bar-item-link">News</a>
+                                    </li>
+                                    <li class="header__bar-item">
+                                        <a href="#" class="header__bar-item-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="box-search">
+                            <input type="text" class="box-search-input" placeholder="Search...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="scroll__top">
+            <i class="scroll__top-icon fa-solid fa-arrow-up"></i>
+        </div>
+    </header>
+
+    <body>
+        <div class="home">
+            <div class="background__home">
+                <h1 class="background__title">Discover</h1>
+                <h2 class="background__desc" style="font-family:'Ingrid Darling', cursive">the world</h2>
+                <button class="background__button"><p>explore now</p> <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                    <div class="background__external">
+                        
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="transport grid wide">
+                    <div class="transport__item active">
+                        <i class="fa-solid fa-rocket"></i>
+                        <span class="transport__item-text">hotels</span>
+                    </div>
+                    <div class="transport__item">
+                        <i class="fa-solid fa-bus"></i>
+                        <span class="transport__item-text">car rentals</span>
+                    </div>
+                    <div class="transport__item">
+                        <i class="fa-solid fa-plane"></i>
+                        <span class="transport__item-text">flight</span>
+                    </div>
+                    <div class="transport__item">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                        <span class="transport__item-text">trips</span>
+                    </div>
+                    <div class="transport__item">
+                        <i class="fa-solid fa-sailboat"></i>
+                        <span class="transport__item-text">cuises</span>
+                    </div>
+                    <div class="transport__item">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <span class="transport__item-text">activities</span>
+                    </div>
+            </div>
+            <span class="mt-top"></span>
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="infomation-item col l-4 m-6 c-12">
+                        <h3>destination</h3>
+                        <input type="text" class="infomation__input">
+                    </div>
+                    <div class="infomation-item col l-2 m-6 c-12">
+                        <h3>check in</h3>
+                        <input type="date" class="infomation__input" placeholder="DD-MM-YYYY">
+                    </div>
+                    <div class="infomation-item col l-2 m-6 c-12">
+                        <h3>check out</h3>
+                        <input type="text" class="infomation__input">
+                    </div>
+                    <div class="infomation-item col l-1 m-3 c-6">
+                        <h3>adult</h3>
+                        <select name="" class="infomation-item__select">
+                            <option value="">01</option>
+                            <option value="">02</option>
+                            <option value="">03</option>
+                        </select>
+                    </div>
+                    <div class="infomation-item col l-1 m-3 c-6">
+                        <h3>children</h3>
+                        <select name="" class="infomation-item__select">
+                            <option value="">01</option>
+                            <option value="">02</option>
+                            <option value="">03</option>
+                        </select>
+                    </div>
+                   <div class="infomation__search col l-2">
+                       <button>Search
+                            <small>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                            </small>
+                       </button>
+                   </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Place -->
+        <div class="place grid wide">
+            <div class="place__heading">
+                <h1 class="place__title">
+                    We have the best tours
+                </h1>
+                <div class="place__desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, ad. Aut incidunt inventore deserunt expedita, soluta, delectus eligendi dolore maiores cupiditate eos animi consectetur libero quis repellat voluptates perspiciatis tempore.
+                </div>
+            </div>
+
+            <div class="place__body grid wide">
+                <div class="row place__row">
+                    <div class="place__body-item col l-4 m-12 c-12">
+                            <div class="place__body-item-background" style="background-image: url(/assets/img/xintro_1.jpg.pagespeed.ic.vc2WNRX2pm.webp);">
+                                <div class="place__body-overlay"></div>
+                                <p class="place__body-time">May 15th - July01st</p>
+                                <h1 class="place__body-title">
+                                    Mauritius
+                                </h1>
+                                <p class="place__body-desc">From $1450</p>
+                                <div class="place__body-vote">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <button class="background__button"><p>See more</p> <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                                    <div class="background__external">
+                                        
+                                    </div>
+                                </button>
+                            </div>
+                    </div>
+                    <div class="place__body-item col l-4 m-12 c-12">
+                        <div class="place__body-item-background" style="background-image: url(/assets/img/xintro_2.jpg.pagespeed.ic.T0_SEU16mo.webp);">
+                            <div class="place__body-overlay"></div>
+                            <p class="place__body-time">May 15th - July01st</p>
+                            <h1 class="place__body-title">
+                                Greece
+                            </h1>
+                            <p class="place__body-desc">From $1450</p>
+                            <div class="place__body-vote">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <button class="background__button"><p>See more</p> <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                                <div class="background__external">
+                                    
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="place__body-item col l-4 m-12 c-12">
+                            <div class="place__body-item-background" style="background-image: url(/assets/img/xintro_3.jpg.pagespeed.ic.56ahj3oq2s.webp);">
+                                <div class="place__body-overlay"></div>
+                                <p class="place__body-time">May 15th - July01st</p>
+                                <h1 class="place__body-title">
+                                    Scotland
+                                </h1>
+                                <p class="place__body-desc">From $1450</p>
+                                <div class="place__body-vote">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <button class="background__button"><p>See more</p> <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                                    <div class="background__external">
+                                        
+                                    </div>
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Package -->
+        <div class="package">
+            <div class="package__background">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="package__box">
+                                <h1 class="package__box-heading">
+                                    MALDIVES DELUXE PACKAGE
+                                </h1>
+                                <div class="place__body-vote">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p class="package__box-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu,
+                                    bus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.
+                                </p>
+                                <button class="background__button"><p>book now</p> <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                                    <div class="background__external">
+                                        
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Offers -->
+        <div class="offer">
+            <div class="offer__background grid wide">
+                <h1 class="offer__heading">
+                    THE BEST OFFERS WITH ROOMS
+                </h1>
+                <div class="row offer__row">
+                    <div class="offer__item col l-6 m-12 c-12">
+                       <div class="offer__img" style="background-image : url(/assets/img/offer__1.webp);">
+                           <a href="" class="offer__btn">
+                               grand castle
+                           </a>
+                       </div>
+                       <div class="offer__content">
+                            <div class="offer__price">
+                                <p class="offer__price-number">$70</p>
+                                <p class="offer__price-text">per night</p>
+                            </div>
+                            <div class="place__body-vote">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="offer__content__text">
+                                Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                            </p>
+                            <div class="offer__content-icon">
+                                <img src="./assets/img/icon-1.webp" alt="" class="offer__content-icon-img">
+                                <img src="./assets/img/icon-2.webp" alt="" class="offer__content-icon-img">
+                                <img src="./assets/img/icon-3.webp" alt="" class="offer__content-icon-img">
+                                <img src="./assets/img/icon-4.webp" alt="" class="offer__content-icon-img">
+                            </div>
+                            <a href="" class="offer__content-read">
+                                read more
+                            </a>
+                       </div>
+                    </div>
+                    <div class="offer__item col l-6 m-12 c-12">
+                        <div class="offer__img" style="background-image : url(/assets/img/offer__2.webp);">
+                            <a href="" class="offer__btn">
+                                grand castle
+                            </a>
+                        </div>
+                        <div class="offer__content">
+                             <div class="offer__price">
+                                 <p class="offer__price-number">$50</p>
+                                 <p class="offer__price-text">per night</p>
+                             </div>
+                             <div class="place__body-vote">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                             </div>
+                             <p class="offer__content__text">
+                                 Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                             </p>
+                             <div class="offer__content-icon">
+                                 <img src="./assets/img/icon-1.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-2.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-3.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-4.webp" alt="" class="offer__content-icon-img">
+                             </div>
+                             <a href="" class="offer__content-read">
+                                 read more
+                             </a>
+                        </div>
+                     </div>
+                     <div class="offer__item col l-6 m-12 c-12">
+                        <div class="offer__img" style="background-image : url(/assets/img/offer__3.webp);">
+                            <a href="" class="offer__btn">
+                                grand castle
+                            </a>
+                        </div>
+                        <div class="offer__content">
+                             <div class="offer__price">
+                                 <p class="offer__price-number">$90</p>
+                                 <p class="offer__price-text">per night</p>
+                             </div>
+                             <div class="place__body-vote">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                             </div>
+                             <p class="offer__content__text">
+                                 Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                             </p>
+                             <div class="offer__content-icon">
+                                 <img src="./assets/img/icon-1.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-2.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-3.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-4.webp" alt="" class="offer__content-icon-img">
+                             </div>
+                             <a href="" class="offer__content-read">
+                                 read more
+                             </a>
+                        </div>
+                     </div>
+                     <div class="offer__item col l-6 m-12 c-12">
+                        <div class="offer__img" style="background-image : url(/assets/img/offer__4.webp);">
+                            <a href="" class="offer__btn">
+                                grand castle
+                            </a>
+                        </div>
+                        <div class="offer__content">
+                             <div class="offer__price">
+                                 <p class="offer__price-number">$30</p>
+                                 <p class="offer__price-text">per night</p>
+                             </div>
+                             <div class="place__body-vote">
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star"></i>
+                             </div>
+                             <p class="offer__content__text">
+                                 Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                             </p>
+                             <div class="offer__content-icon">
+                                 <img src="./assets/img/icon-1.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-2.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-3.webp" alt="" class="offer__content-icon-img">
+                                 <img src="./assets/img/icon-4.webp" alt="" class="offer__content-icon-img">
+                             </div>
+                             <a href="" class="offer__content-read">
+                                 read more
+                             </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- opinion -->
+        <div class="opinion">
+            <div class="grid wide">
+                <h1 class="opinion__heading">
+                    what our clients say about us
+                </h1>
+                <div class="opinion__row row">
+                    <div class="opinion__item col l-4 m-6 c-6 s-12">
+                        <div class="opinion__background">
+                            <img src="./assets/img/opinion-1.webp" alt="" class="opinion__background-img">
+                            <div class="opinion__icon">
+                                <img src="./assets/img/opinion-icon-1.webp" alt="" class="opinion__icon-img">
+                            </div>
+                            <div class="opinion__container">
+                                <h2 class="opinion__container-heading">
+                                    CARLA SMITH
+                                </h2>
+                                <p class="opinion__container-time">
+                                    May 24, 2020
+                                </p>
+                            </div>
+                            <div class="opinion__footer">
+                                <h1 class="opinion__footer-heading">
+                                    " Best holliday ever "
+                                </h1>
+                                <p class="opinion__footer-text">
+                                    Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opinion__item col l-4 m-6 c-6 s-12">
+                        <div class="opinion__background">
+                            <img src="./assets/img/opinion-2.webp" alt="" class="opinion__background-img">
+                            <div class="opinion__icon">
+                                <img src="./assets/img/opinion-icon-2.webp" alt="" class="opinion__icon-img">
+                            </div>
+                            <div class="opinion__container">
+                                <h2 class="opinion__container-heading">
+                                    CARLA SMITH
+                                </h2>
+                                <p class="opinion__container-time">
+                                    May 24, 2020
+                                </p>
+                            </div>
+                            <div class="opinion__footer">
+                                <h1 class="opinion__footer-heading">
+                                    " Best holliday ever "
+                                </h1>
+                                <p class="opinion__footer-text">
+                                    Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opinion__item col l-4 m-6 c-6 s-12">
+                        <div class="opinion__background">
+                            <img src="./assets/img/opinion-3.webp" alt="" class="opinion__background-img">
+                            <div class="opinion__icon">
+                                <img src="./assets/img/opinion-icon-3.webp" alt="" class="opinion__icon-img">
+                            </div>
+                            <div class="opinion__container">
+                                <h2 class="opinion__container-heading">
+                                    CARLA SMITH
+                                </h2>
+                                <p class="opinion__container-time">
+                                    May 24, 2020
+                                </p>
+                            </div>
+                            <div class="opinion__footer">
+                                <h1 class="opinion__footer-heading">
+                                    " Best holliday ever "
+                                </h1>
+                                <p class="opinion__footer-text">
+                                    Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hotel -->
+        <div class="trending">
+            <div class="trending__border"></div>
+            <div class="grid wide">
+                <h1 class="trending__heading">trending now</h1>
+                <div class="trending__row row">
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-1.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">grand hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-2.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">mars hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-3.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">queen hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-4.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">mars hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-5.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">grand hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-6.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">mars hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-7.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">grand hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                    <div class="trending__item col l-3 m-4 c-6">
+                        <div class="trending__img">
+                            <img src="./assets/img/hotel-8.webp" alt="">
+                        </div>
+                        <div class="trending__content">
+                            <h1 class="trending__content-heading">queen hotel</h1>
+                            <p class="trending__content-price">
+                                Form $182
+                            </p>
+                            <p class="trending__content-place">
+                                madrid, spain
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="contact__parent">
+            <div class="contact" style="background-image : url(/assets/img/contact__bg.webp);">
+                <div class="contact__box grid wide">
+                    <div class="contact__row row">
+                        <div class="contact__form">
+                            <h1 class="contact__form-heading">
+                                GET IN TOUCH
+                            </h1>
+                           <form action="">
+                                <div class="contact__form-info">
+                                    <div class="contact__fomr-info-user">
+                                        <div class="input">
+                                            <input class="input__1" type="text" placeholder="Name" required>
+                                            <span class="border__bottom"></span>
+                                        </div>
+                                       <div class="input">
+                                            <input type="email" placeholder="Email" required>
+                                            <span class="border__bottom"></span>
+                                       </div>
+                                    </div>
+                                    <div class="contact__form-infor-subject">
+                                       <div class="input">
+                                        <input type="text" placeholder="Subject" required>
+                                        <span class="border__bottom"></span>
+                                       </div>
+                                    </div>
+                                    <div class="contact__form-infor-message">
+                                       <div class="input">
+                                          <input class="input-3" type="text" placeholder="Message" required>
+                                          <span class="border__bottom"></span>
+                                       </div>
+                                    </div>
+                                    <span></span>
+                                </div>
+        
+                                <button class="contact__form-submit">
+                                    <p>send message</p>
+                                    <div class="contact__form-submit-icon">
+                                        <i style="" class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i>
+                                    </div>
+                                </button>
+                           </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer__content grid wide">
+                <div class="footer__row row">
+                    <div class="footer__item col l-3 m-6 c-6 s-12">
+                        <div class="header__logo">
+                            <img src="./assets/img/logo.webp" alt="TRAVELIX">
+                            <h1>TRAVELIX</h1>
+                        </div>
+                        <p class="footer__item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.
+                        </p>
+                        <ul class="footer__item-contact">
+                            <li class="footer__item-contact-icon">
+                               <a href="">
+                                 <i class="fa-brands fa-pinterest-p"></i>
+                               </a>
+                            </li>
+                            <li class="footer__item-contact-icon">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="footer__item-contact-icon">
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer__item-contact-icon">
+                               <a href="">
+                                   <i class="fa-brands fa-dribbble"></i>
+                               </a>
+                            </li>
+                            <li class="footer__item-contact-icon">
+                                <a href="">
+                                    <i class="fa-brands fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item col l-3 m-6 c-6 s-12">
+                        <h1 class="footer__item-heading">
+                            blog posts
+                        </h1>
+                        <ul class="footer__place">
+                            <li class="footer__place-item">
+                                <img src="./assets/img/footer-1.webp" alt="">
+                                <div class="footer__place-item-content">
+                                    <h3>
+                                        Travel with us this year
+                                    </h3>
+                                    <p>
+                                        July 20, 2021
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="footer__place-item">
+                                <img src="./assets/img/footer-2.webp" alt="">
+                                <div class="footer__place-item-content">
+                                    <h3>
+                                        New destinations for you
+                                    </h3>
+                                    <p>
+                                        July 20, 2021
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="footer__place-item">
+                                <img src="./assets/img/footer-3.webp" alt="">
+                                <div class="footer__place-item-content">
+                                    <h3>
+                                        Travel with us this year
+                                    </h3>
+                                    <p>
+                                        July 20, 2021
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item col l-3 m-6 c-6 s-12">
+                        <h1 class="footer__item-heading">
+                            tags
+                        </h1>
+                        <ul class="footer__activity">
+                            <li class="footer__activity-item">
+                                <a href="">design</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">fashion</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">music</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">video</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">party</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">photography</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">adventure</a>
+                            </li>
+                            <li class="footer__activity-item">
+                                <a href="">travel</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item col l-3 m-6 c-6 s-12">
+                        <h1 class="footer__item-heading">
+                            contact info
+                        </h1>
+                        <ul class="footer__contact-list">
+                            <li class="footer__contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a href="
+                                https://www.google.com/maps/place/497+N%C3%BAi+Th%C3%A0nh,+Ho%C3%A0+C%C6%B0%E1%BB%9Dng+Nam,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng,+Vi%E1%BB%87t+Nam/@16.034187,108.2205264,17z/data=!3m1!4b1!4m5!3m4!1s0x314219eee08eca4f:0xe8ec1f6d68f27cc8!8m2!3d16.0341819!4d108.2227151
+                                " target="__blank">497 Nui Thanh, HCNam, Quan Hai Chau</a>
+                            </li>
+                            <li class="footer__contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="">+84 944 198 125</a>
+                            </li>
+                            <li class="footer__contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="">dat03122003@gmail.com</a>
+                            </li>
+                            <li class="footer__contact-item">
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/quocdatdang03" target="__blank">quocdatdang03.github.io</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> 2022 by <a href="https://www.facebook.com/profile.php?id=100014260533711" target="__top" class="footer__author">Dang_Quoc_Dat</a></p>
+            </div>
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</body>
+</html>
